@@ -103,7 +103,7 @@ The objective of this model is to provide a tool to help guide platform engineer
 
 <div style="min-width:620px">
 {{< tabs tabTotal="6">}}
-{{< tab tabName="Investment" >}}
+{{< tab tabName="Investment" tabID="Investment">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are staff and funds allocated to platform capabilities?</i></h4>
 
@@ -173,7 +173,7 @@ Platform teams find ways to increase organization-wide efficiency and effectiven
 * Automation initiative reduces human time to provision databases by 30 minutes per instance, saving $10m/year.
 
 {{< /tab >}}
-{{< tab tabName="Adoption" >}}
+{{< tab tabName="Adoption" tabID="Adoption">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>Why and how do users discover and use internal platforms and platform capabilities?</i></h4>
 
@@ -259,7 +259,7 @@ Users from product teams further invest in platform capabilities by joining the 
 * A team wants an alternative backup plan. After proposing this as a general offering, it is deemed low priority due to minimal reuse. The proposing team chooses to integrate their solution into the platform framework and make it available to the organization. It is originally an alpha offering but once it meets all of the operational requirements can be promoted to a core platform capability.
 
 {{< /tab >}}
-{{< tab tabName="Interfaces">}}
+{{< tab tabName="Interfaces" tabID="Interfaces">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How do users interact with and consume platform capabilities?</i></h4>
 
@@ -337,7 +337,7 @@ Platform capabilities are transparently integrated into the tools and processes 
 * From a catalog in a Service Now portal a user selects "Provision a Database." Automation provisions an RDS database and sends a URL and location to get credentials to the user.
 
 {{< /tab >}}
-{{< tab tabName="Operations">}}
+{{< tab tabName="Operations" tabID="Operations">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>How are platforms and their capabilities planned, prioritized, developed and maintained?</i></h4>
 
@@ -415,7 +415,7 @@ Platform capability providers take on the brunt of responsibility for maintenanc
 * The users of virtual machines are not required to manage anything to do with version upgrades. Their only requirement is to have a stage in their delivery pipeline that contains a representative smoke test. They are then asked to declare their application as having lower risk tolerance so as to wait for a fully hardened upgrade or higher tolerance to become an early adopter. The virtual machine capability then manages the automated release of upgrades including rollbacks after either smoke test or canary release failures.
 
 {{< /tab >}}
-{{< tab tabName="Measurement">}}
+{{< tab tabName="Measurement" tabID="Measurement">}}
 
 <h4 style="color:gray;padding-bottom:10px;padding-top:20px"><i>What is the process for gathering and incorporating feedback and learning?</i></h4>
 
